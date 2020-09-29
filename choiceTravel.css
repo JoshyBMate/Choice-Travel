@@ -1,0 +1,372 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+h4{
+    font-size: 20px;
+}
+            
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+}
+            
+th,td{               
+    text-align: center;   
+}
+            
+th{
+    background-color: darkblue;
+    color: white;
+    font-size: 12px;
+    padding: 1.5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+th span{
+    font-size: 10px;
+}
+            
+td{
+    color: darkblue;
+    font-size: 11px;
+}    
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+#pageDiv{
+    width: 100%;
+}
+
+#headerDiv{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+#weOfferDiv{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.headingResizeStyles{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.paragraphResizeStyles{
+    font-size: 13px;
+}
+
+#iconDiv{
+    text-align: center;
+}
+
+#rewardsDiv{
+    margin-top: 75px;
+    width: 100%;
+}
+
+.smallerParagraphResizeStyles{
+    font-size: 13px;
+}
+
+#rewardsDiv div{
+    width: 100%;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.bannerDivs{
+    width: 100%;
+    text-align: center;
+    display: table;
+    height: 200px;
+    color: white;  
+    margin-top: 30px;
+
+}
+
+.bannerDivs h4{
+    font-size: 15px;
+}
+.bannerDivs span{
+    font-size: 12px;
+}
+
+#blueBannerDiv{
+    width: 100%;
+    background: darkblue;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#blueBannerDiv p{
+    color: white;
+    font-size: 15px;
+}
+
+#scheduleDiv{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#tableDiv{
+    margin-top: 30px;
+}
+
+#depaturePointInfoDiv{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#parcelDiv{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#parcelDiv img{
+    width: 150px;
+    padding-bottom: 30px;
+    
+}
+
+.icon{
+    width: 60px;
+}
+#greenBannerContainer{
+    background: green;
+}
+#greenBannerDiv{
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#carouselDiv{
+    margin: 15px;
+    text-align: center;
+}
+#carouselDiv img{
+    height: 250px;
+}
+
+#imgDiv{
+    display: flex;
+    
+}
+
+#imgDiv div{
+    margin: 15px;
+    display: none;
+}
+
+#conTCDiv{
+    display: flex;
+    height: 350px;
+    color: white;
+}
+
+#conTCDiv h1{
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+
+#conTCDiv span{
+    font-size: 10px;
+}
+
+#conTCDiv ul{
+    font-size: 10px;
+}
+
+#contactDiv{
+    width: 35%;
+    background: green;
+    text-align: center;
+}
+
+#contactDiv img{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#TCDiv{
+    width: 65%;
+    background: darkblue;
+    overflow-y: scroll;
+}
+
+.tcPadding{
+    margin-left: 15px;
+}
+
+
+@media only screen and (min-width: 368px){
+    ul a{
+        font-size: 15px;
+    }
+    
+    #conTCDiv span{
+        font-size: 13px;
+    }
+    
+    #TCDiv ul{
+        font-size: 13px;
+    }
+
+    .paragraphResizeStyles{
+        font-size: 15px;
+    }
+    
+    .icon{
+        width: 75px;
+    }
+    
+    th{
+        font-size: 17px;
+    }
+    
+    td{
+        font-size: 15px;
+    }
+    
+    #conTCDiv h1{
+        font-size: 17px;
+    }
+    
+    #carouselDiv img{
+        height: 350px;
+    }
+    
+    .bannerDivs h4{
+        font-size: 17px;
+    }
+    
+    .bannerDiv span{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 568px){
+    ul a{
+        font-size: 20px;
+    }
+    
+    th{
+        font-size: 20px;
+    }
+    
+    th span{
+        font-size: 15px;
+    }
+    
+    td{
+        font-size: 18px;
+    }
+
+    .headingResizeStyles{
+        font-size: 40px;
+    }    
+    
+    .paragraphResizeStyles{
+        font-size: 17px;
+    }
+    
+    .icon{
+        width: 90px;
+    }
+    
+    #blueBannerDiv p{
+        font-size: 17px;
+    }
+    #conTCDiv span{
+        font-size: 15px;
+    }
+       
+    #TCDiv ul{
+        font-size: 15px;
+    }
+    
+    #conTCDiv h1{
+        font-size: 20px;
+    }
+    
+    #carouselDiv img{
+        height: 400px;
+    }
+    
+    #imgDiv div{
+        display: block;
+    }
+        
+    .bannerDivs h4{
+        font-size: 20px;
+    }
+    
+    .bannerDiv span{
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 768px){
+    ul a{
+        font-size: 25px;
+    }
+ 
+    table{
+        width: 80%;
+    }
+    
+    .headingResizeStyles{
+        font-size: 50px;
+    }
+        
+    .paragraphResizeStyles{
+        font-size:20px;
+    }
+    
+    .icon{
+        width: 105px;
+    }
+    
+     .smallerParagraphResizeStyles{
+        font-size: 15px;
+    }
+    
+    #blueBannerDiv p{
+        font-size: 20px;
+    }
+    
+    #carouselDiv img{
+        height: 450px;
+    }
+    
+    .bannerDivs h4{
+        font-size: 30px;
+    }
+    
+    .bannerDiv span{
+        font-size: 20px;
+    }
+}
+
+
